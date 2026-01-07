@@ -40,7 +40,7 @@ const ContactSection = ({ language }: ContactSectionProps) => {
       successMessage: 'Thank you! We\'ll be in touch soon.',
       contactInfo: [
         { icon: Phone, label: 'Call Us', value: '+91 124 456 7890' },
-        { icon: Mail, label: 'Email', value: 'care@sakhi.health' },
+        { icon: Mail, label: 'Email', value: 'care@naricare.health' },
         { icon: MapPin, label: 'Location', value: 'Gurugram, Haryana' },
       ],
     },
@@ -55,7 +55,7 @@ const ContactSection = ({ language }: ContactSectionProps) => {
       successMessage: 'धन्यवाद! हम जल्द ही संपर्क करेंगे।',
       contactInfo: [
         { icon: Phone, label: 'कॉल करें', value: '+91 124 456 7890' },
-        { icon: Mail, label: 'ईमेल', value: 'care@sakhi.health' },
+        { icon: Mail, label: 'ईमेल', value: 'care@naricare.health' },
         { icon: MapPin, label: 'स्थान', value: 'गुरुग्राम, हरियाणा' },
       ],
     },

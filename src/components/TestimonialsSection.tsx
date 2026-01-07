@@ -16,7 +16,7 @@ const TestimonialsSection = ({ language }: TestimonialsSectionProps) => {
     { name: 'Deepa L.', location: 'Bangalore', quote: 'Insurance covered everything. Affordable care without compromising quality.', quoteHi: 'बीमा ने सब कुछ कवर किया। गुणवत्ता से समझौता किए बिना सस्ती देखभाल।' },
     { name: 'Rekha T.', location: 'Pune', quote: 'The supplements made such a difference in my daily energy and mood.', quoteHi: 'सप्लीमेंट्स ने मेरी दैनिक ऊर्जा और मूड में बहुत फर्क किया।' },
     { name: 'Shalini G.', location: 'Gurugram', quote: 'Virtual consultations are so convenient. No more traffic stress!', quoteHi: 'वर्चुअल परामर्श बहुत सुविधाजनक हैं। अब ट्रैफिक का तनाव नहीं!' },
-    { name: 'Nandini S.', location: 'Hyderabad', quote: 'My skin and hair have never looked better. Thank you Sakhi!', quoteHi: 'मेरी त्वचा और बाल कभी इतने अच्छे नहीं दिखे। धन्यवाद साखी!' },
+    { name: 'Nandini S.', location: 'Hyderabad', quote: 'My skin and hair have never looked better. Thank you NariCare!', quoteHi: 'मेरी त्वचा और बाल कभी इतने अच्छे नहीं दिखे। धन्यवाद नारीकेयर!' },
     { name: 'Pooja A.', location: 'Chennai', quote: 'The hormone therapy changed my life. I wish I started sooner.', quoteHi: 'हार्मोन थेरेपी ने मेरी जिंदगी बदल दी। काश मैंने पहले शुरू किया होता।' },
     { name: 'Rashmi V.', location: 'Jaipur', quote: 'Sleep quality improved dramatically. Waking up refreshed again!', quoteHi: 'नींद की गुणवत्ता में नाटकीय सुधार हुआ। फिर से तरोताजा जाग रही हूं!' },
     { name: 'Geeta N.', location: 'Ahmedabad', quote: 'Weight loss felt natural this time. No crash diets, just real results.', quoteHi: 'इस बार वजन घटाना स्वाभाविक लगा। कोई क्रैश डाइट नहीं, बस असली परिणाम।' },

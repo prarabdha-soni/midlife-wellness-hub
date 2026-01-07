@@ -17,7 +17,7 @@ const Footer = ({ language }: FooterProps) => {
       resourcesList: ['Blog', 'FAQs', 'Research', 'Testimonials'],
       legal: 'Legal',
       legalList: ['Privacy Policy', 'Terms of Service', 'Cookie Policy'],
-      copyright: '© 2025 Sakhi Health. All rights reserved.',
+      copyright: '© 2025 NariCare Health. All rights reserved.',
       tagline: 'Made with care in India 🇮🇳',
     },
     hi: {
@@ -30,7 +30,7 @@ const Footer = ({ language }: FooterProps) => {
       resourcesList: ['ब्लॉग', 'सामान्य प्रश्न', 'शोध', 'प्रशंसापत्र'],
       legal: 'कानूनी',
       legalList: ['गोपनीयता नीति', 'सेवा की शर्तें', 'कुकी नीति'],
-      copyright: '© 2025 साखी हेल्थ। सर्वाधिकार सुरक्षित।',
+      copyright: '© 2025 नारीकेयर हेल्थ। सर्वाधिकार सुरक्षित।',
       tagline: 'भारत में प्यार से बनाया गया 🇮🇳',
     },
   };
@@ -58,9 +58,9 @@ const Footer = ({ language }: FooterProps) => {
           >
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">S</span>
+                <span className="text-primary-foreground font-bold text-lg">N</span>
               </div>
-              <span className="text-xl font-bold">Sakhi</span>
+              <span className="text-xl font-bold">NariCare</span>
             </div>
             <p className="text-background/70 mb-6 max-w-sm leading-relaxed">
               {t.description}
