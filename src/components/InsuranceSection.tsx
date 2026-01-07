@@ -10,14 +10,14 @@ const InsuranceSection = ({ language }: InsuranceSectionProps) => {
     en: {
       tagline: 'RELIEF WITHIN REACH',
       title: "We've Got Your Care Covered",
-      subtitle: 'Sakhi Health is available pan-India, with insurance coverage for virtual visits and prescriptions.',
+      subtitle: 'NariCare Health is available pan-India, with insurance coverage for virtual visits and prescriptions.',
       checkCoverage: 'Check Your Coverage',
       andMore: 'and more...',
     },
     hi: {
       tagline: 'राहत आपकी पहुंच में',
       title: 'आपकी देखभाल हमारी जिम्मेदारी',
-      subtitle: 'साखी हेल्थ पूरे भारत में उपलब्ध है, वर्चुअल विज़िट और प्रिस्क्रिप्शन के लिए बीमा कवरेज के साथ।',
+      subtitle: 'नारीकेयर हेल्थ पूरे भारत में उपलब्ध है, वर्चुअल विज़िट और प्रिस्क्रिप्शन के लिए बीमा कवरेज के साथ।',
       checkCoverage: 'कवरेज जांचें',
       andMore: 'और भी...',
     },

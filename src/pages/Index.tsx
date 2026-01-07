@@ -21,12 +21,12 @@ const Index = () => {
 
   const seoContent = {
     en: {
-      title: 'Sakhi Health | Expert Midlife Care for Women in India',
+      title: 'NariCare Health | Expert Midlife Care for Women in India',
       description: 'Virtual consultations for perimenopause, menopause, weight management, and more. Insurance-covered care from board-certified specialists in Gurugram and pan-India.',
       keywords: 'menopause treatment India, perimenopause care, women health Gurugram, hormone therapy, midlife wellness, telehealth India, femtech',
     },
     hi: {
-      title: 'साखी हेल्थ | भारत में महिलाओं के लिए विशेषज्ञ मध्य जीवन देखभाल',
+      title: 'नारीकेयर हेल्थ | भारत में महिलाओं के लिए विशेषज्ञ मध्य जीवन देखभाल',
       description: 'पेरीमेनोपॉज, मेनोपॉज, वजन प्रबंधन और अधिक के लिए वर्चुअल परामर्श। गुरुग्राम और पूरे भारत में बोर्ड-प्रमाणित विशेषज्ञों से बीमा-कवर देखभाल।',
       keywords: 'मेनोपॉज उपचार भारत, पेरीमेनोपॉज देखभाल, महिला स्वास्थ्य गुरुग्राम, हार्मोन थेरेपी, मध्य जीवन कल्याण',
     },
@@ -48,14 +48,14 @@ const Index = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={seo.title} />
         <meta name="twitter:description" content={seo.description} />
-        <link rel="canonical" href="https://sakhi.health" />
+        <link rel="canonical" href="https://naricare.health" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "MedicalOrganization",
-            "name": "Sakhi Health",
+            "name": "NariCare Health",
             "description": seo.description,
-            "url": "https://sakhi.health",
+            "url": "https://naricare.health",
             "areaServed": "India",
             "medicalSpecialty": ["Gynecology", "Endocrinology"],
             "address": {
