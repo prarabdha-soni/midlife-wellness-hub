@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
+import InsuranceSection from '@/components/InsuranceSection';
 import ConditionsGrid from '@/components/ConditionsGrid';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import SupplementsSection from '@/components/SupplementsSection';
@@ -71,6 +72,7 @@ const Index = () => {
         <Header language={language} onLanguageToggle={toggleLanguage} />
         <main>
           <HeroSection language={language} />
+          <InsuranceSection language={language} />
           <ConditionsGrid language={language} />
           <TestimonialsSection language={language} />
           <SupplementsSection language={language} />
